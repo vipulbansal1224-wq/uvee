@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ImageSlider from './ImageSlider';
 import styles from './HeroBanner.module.css';
 
 export default function HeroBanner() {
@@ -22,12 +23,7 @@ export default function HeroBanner() {
           </div>
         </div>
         <div className={`${styles.imageWrapper} animate-fade-in delay-300`}>
-          {/* Using one of their scraped images as a hero showcase */}
-          <img 
-            src="/wp-content/uploads/2022/08/Makhana-Fox-Nuts-Classic-1.jpeg" 
-            alt="Premium Makhana" 
-            className={styles.heroImage}
-          />
+          <ImageSlider />
           <div className={styles.floatingCard}>
             <span className={styles.stars}>⭐⭐⭐⭐⭐</span>
             <p>"The best quality almonds I've ever tasted!"</p>
