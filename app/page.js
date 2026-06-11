@@ -28,15 +28,18 @@ export default function Home() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '32px', marginTop: '40px' }}>
             <div style={{ background: 'white', padding: '30px', borderRadius: '16px', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Authentic Cashews</h3>
+              <img src="/wp-content/uploads/2022/07/roasted-masala-cashew-1.jpeg" alt="Cashews" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px', marginBottom: '20px' }} />
+              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Cashews</h3>
               <p style={{ color: '#4a5568' }}>Authentic Goan cashews, farmed locally. Boasting both premium quality and the best cashew nut wholesale price in India.</p>
             </div>
             <div style={{ background: 'white', padding: '30px', borderRadius: '16px', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Roasted Makhana</h3>
-              <p style={{ color: '#4a5568' }}>Rich in nutrients. Makhana is an excellent source of several important nutrients and makes a great addition to a healthy, well-rounded diet. High in antioxidants.</p>
+              <img src="/wp-content/uploads/2022/07/roasted-pista-1.jpeg" alt="Pistachios" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px', marginBottom: '20px' }} />
+              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Pistachios</h3>
+              <p style={{ color: '#4a5568' }}>Crunchy, lightly salted pistachios, packed with nutrition for a healthy snacking option.</p>
             </div>
             <div style={{ background: 'white', padding: '30px', borderRadius: '16px', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Premium Almonds</h3>
+              <img src="/wp-content/uploads/2022/07/salted-almond-1.jpeg" alt="Almonds" style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px', marginBottom: '20px' }} />
+              <h3 style={{ fontSize: '24px', color: 'var(--primary)', marginBottom: '16px' }}>Almonds</h3>
               <p style={{ color: '#4a5568' }}>Handpicked, premium quality almonds, both delicious and a rich source of protein and healthy fats.</p>
             </div>
           </div>
