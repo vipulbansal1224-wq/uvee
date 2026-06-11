@@ -69,7 +69,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.footerContent}>
             <div className={styles.footerBrand}>
-              <img src="/wp-content/uploads/2022/07/logo-1.jpg" alt="UVEE Logo" style={{ height: '50px', width: 'auto', marginBottom: '16px', filter: 'brightness(0) invert(1)' }} />
+              <img src="/wp-content/uploads/2022/07/logo-1.jpg" alt="UVEE Logo" style={{ height: '50px', width: 'auto', marginBottom: '16px', borderRadius: '4px' }} />
               <p style={{ maxWidth: '300px' }}>Right from flower to fruit to the processing and packaging, we employ fair trade practices and high quality standards.</p>
             </div>
             <div style={{ flex: 1, marginLeft: '60px' }}>
