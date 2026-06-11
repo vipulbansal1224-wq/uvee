@@ -1,4 +1,6 @@
+"use client";
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 import styles from './page.module.css';
 
 const products = [
@@ -8,11 +10,26 @@ const products = [
   { id: 4, name: "Golden Roasted Cashews", price: "₹650", image: "/cashews.png" },
 ];
 
+const banners = [
+  "/banner-1.jpg",
+  "/banner-2.jpg",
+  "/banner-3.jpg"
+];
+
 export default function Home() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % banners.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <>
-      <nav className={`${styles.navbar} ${styles['glass-panel']}`}>
-        <div className={styles.navContainer}>
+      <nav className={styles.navbar}>
+        <div className={`${styles.navContainer} ${styles.container}`}>
           <div className={styles.logo}>UVEE</div>
           <div className={styles.navLinks}>
             <a href="#" className={styles.navLink}>Home</a>
@@ -24,23 +41,23 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
-        <section className={styles.hero}>
-          <div className={`${styles['glass-panel']} ${styles['animate-fade-in']}`} style={{ padding: '60px 40px', maxWidth: '800px', margin: '0 auto' }}>
-            <h1 className={`${styles.heroTitle} ${styles['text-shadow']}`}>Finest Roasted Nuts & Spices</h1>
-            <p className={styles.heroSubtitle}>
-              Experience the perfect crunch and authentic flavors with UVEE. 
-              Premium quality ingredients carefully selected and roasted to perfection.
-            </p>
-            <button className={styles['btn-primary']}>Explore Collection</button>
-          </div>
+        <section className={styles.sliderContainer}>
+          {banners.map((banner, index) => (
+            <div 
+              key={index} 
+              className={`${styles.slide} ${index === currentSlide ? styles.active : ''}`}
+            >
+              <img src={banner} alt={`Banner ${index + 1}`} className={styles.slideImage} />
+            </div>
+          ))}
         </section>
 
         <section id="shop" className={styles.section}>
           <div className={styles.container}>
-            <h2 className={`${styles.sectionTitle} ${styles['text-shadow']}`}>Our Premium Selection</h2>
+            <h2 className={styles.sectionTitle}>Our Premium Selection</h2>
             <div className={styles.grid}>
               {products.map((product) => (
-                <div key={product.id} className={`${styles.productCard} ${styles['glass-panel']}`}>
+                <div key={product.id} className={styles.productCard}>
                   <div className={styles.imageWrapper}>
                     <Image 
                       src={product.image} 

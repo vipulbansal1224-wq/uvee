@@ -20,24 +20,12 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  color: var(--text-light);
+  color: var(--text-dark);
   min-height: 100vh;
-  /* Background setup for glassmorphism */
-  background-image: url('/bg.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
+  background-color: var(--bg-color);
 }
 
-/* Dark overlay to make glass pop and text readable */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(10, 5, 0, 0.6); /* Dark earthy tint */
-  z-index: -1;
-}
+
 
 a {
   color: inherit;
