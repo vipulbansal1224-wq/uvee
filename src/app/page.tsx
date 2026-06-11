@@ -1,65 +1,66 @@
-import Image from "next/image";
+import Image from 'next/image';
+import styles from './page.module.css';
+
+const products = [
+  { id: 1, name: "Premium Salted Almonds", price: "₹450", image: "/almonds.png" },
+  { id: 2, name: "Classic Roasted Makhana", price: "₹250", image: "/makhana.png" },
+  { id: 3, name: "Lemon Chilli Spiced Nuts", price: "₹300", image: "/lemon_chilli.png" },
+  { id: 4, name: "Golden Roasted Cashews", price: "₹650", image: "/cashews.png" },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <nav className={`${styles.navbar} ${styles['glass-panel']}`}>
+        <div className={styles.navContainer}>
+          <div className={styles.logo}>UVEE</div>
+          <div className={styles.navLinks}>
+            <a href="#" className={styles.navLink}>Home</a>
+            <a href="#shop" className={styles.navLink}>Shop</a>
+            <a href="#" className={styles.navLink}>About</a>
+            <a href="#" className={styles.navLink}>Contact</a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+      </nav>
+
+      <main className={styles.main}>
+        <section className={styles.hero}>
+          <div className={`${styles['glass-panel']} ${styles['animate-fade-in']}`} style={{ padding: '60px 40px', maxWidth: '800px', margin: '0 auto' }}>
+            <h1 className={`${styles.heroTitle} ${styles['text-shadow']}`}>Finest Roasted Nuts & Spices</h1>
+            <p className={styles.heroSubtitle}>
+              Experience the perfect crunch and authentic flavors with UVEE. 
+              Premium quality ingredients carefully selected and roasted to perfection.
+            </p>
+            <button className={styles['btn-primary']}>Explore Collection</button>
+          </div>
+        </section>
+
+        <section id="shop" className={styles.section}>
+          <div className={styles.container}>
+            <h2 className={`${styles.sectionTitle} ${styles['text-shadow']}`}>Our Premium Selection</h2>
+            <div className={styles.grid}>
+              {products.map((product) => (
+                <div key={product.id} className={`${styles.productCard} ${styles['glass-panel']}`}>
+                  <div className={styles.imageWrapper}>
+                    <Image 
+                      src={product.image} 
+                      alt={product.name} 
+                      width={300} 
+                      height={300} 
+                      priority
+                    />
+                  </div>
+                  <div className={styles.productInfo}>
+                    <h3 className={styles.productName}>{product.name}</h3>
+                    <p className={styles.productPrice}>{product.price}</p>
+                    <button className={styles.addToCartBtn}>Add to Cart</button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
-    </div>
+    </>
   );
 }
