@@ -1,0 +1,111 @@
+# Copyright (C) 2020 Kartik Parmar
+# This file is distributed under the same license as the Change WooCommerce Price Title plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Change WooCommerce Price Title 1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/change-wc-price-title\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-17T00:09:07+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: change-wc-price-title\n"
+
+#. Plugin Name of the plugin
+msgid "Change WooCommerce Price Title"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kartechify.com/product/change-woocommerce-price-title/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows you to change the WooCommerce Price Title. E.g From: $100/- Only. You can completely change the price title or set caption to price. Also, you can hide price titles on the WooCommerce Product page or on all WooCommerce pages."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kartik Parmar"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://parmarkartik19.wordpress.com/"
+msgstr ""
+
+#: change-wc-price-title.php:165
+msgid "Price Title"
+msgstr ""
+
+#: change-wc-price-title.php:166
+msgid "WooCommerce Price Title"
+msgstr ""
+
+#: change-wc-price-title.php:181
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: change-wc-price-title.php:198
+msgid "Change Price Title For All Products"
+msgstr ""
+
+#: change-wc-price-title.php:202
+msgid "Here you can set price title for all your products. Also you can use PRICE shortcode as per your requirement. E.g From: PRICE Only/- "
+msgstr ""
+
+#: change-wc-price-title.php:208
+msgid "Hide Price Title"
+msgstr ""
+
+#: change-wc-price-title.php:212
+msgid "You can hide price title for all WooCommerce products."
+msgstr ""
+
+#: change-wc-price-title.php:217
+msgid "Apply Above Options On All WooCommerce Pages"
+msgstr ""
+
+#: change-wc-price-title.php:221
+msgid "Enable this if you wish to apply above setting on all WooCommerce Pages."
+msgstr ""
+
+#: change-wc-price-title.php:226
+msgid "Enable to show price by multiplying with quantity"
+msgstr ""
+
+#: change-wc-price-title.php:229
+msgid "Enable this if you wish to show price as per the multiply by quantity."
+msgstr ""
+
+#: change-wc-price-title.php:279
+msgid "Change WooCommerce Price Title requires WooCommerce installed and activate."
+msgstr ""
+
+#: change-wc-price-title.php:325
+msgid "Set price title"
+msgstr ""
+
+#: change-wc-price-title.php:327
+msgid "Here you can set the text for WooCommerce Price title as per your requirement. Use PRICE shortcode to include original price in title. E.g From PRICE"
+msgstr ""
+
+#: change-wc-price-title.php:335
+msgid "Hide Price?"
+msgstr ""
+
+#: change-wc-price-title.php:337
+msgid "Hide Price WooCommerce Product Page"
+msgstr ""
+
+#: change-wc-price-title.php:345
+msgid "Applicable on all WooCommerce Pages"
+msgstr ""
+
+#: change-wc-price-title.php:347
+msgid "Enable to apply the set and hide price option to all WooCommerce pages."
+msgstr ""
+
+#: change-wc-price-title.php:467
+msgid "Settings"
+msgstr ""

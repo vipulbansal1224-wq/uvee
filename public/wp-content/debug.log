@@ -1,0 +1,364 @@
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 63
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 73
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 89
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 102
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 111
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 40
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 51
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 68
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 82
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 91
+[08-Jan-2023 14:05:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:05:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:05:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:05:45 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('default_page_te...')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/modules/page-templates/module.php(92): Elementor\Core\Kits\Manager->get_current_settings('default_page_te...')
+#17 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Modules\PageTemplates\Module->template_include('/home2/news5tse...')
+#18 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(205): WP_Hook->apply_filters('/home2/news5tse...', Array)
+#19 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/home2/news5tse...')
+#20 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#21 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#22 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:06:08 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('default_page_te...')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/modules/page-templates/module.php(92): Elementor\Core\Kits\Manager->get_current_settings('default_page_te...')
+#17 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Modules\PageTemplates\Module->template_include('/home2/news5tse...')
+#18 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(205): WP_Hook->apply_filters('/home2/news5tse...', Array)
+#19 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/home2/news5tse...')
+#20 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#21 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#22 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 63
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 73
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 89
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 102
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 111
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 40
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 51
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 68
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 82
+[08-Jan-2023 14:06:31 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 91
+[08-Jan-2023 14:06:31 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('default_page_te...')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/modules/page-templates/module.php(92): Elementor\Core\Kits\Manager->get_current_settings('default_page_te...')
+#17 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Modules\PageTemplates\Module->template_include('/home2/news5tse...')
+#18 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(205): WP_Hook->apply_filters('/home2/news5tse...', Array)
+#19 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/home2/news5tse...')
+#20 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#21 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#22 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:06:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:06:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php:1102) in /home2/news5tsef/www.uvees.in/wp-includes/pluggable.php on line 1416
+[08-Jan-2023 14:06:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php:1102) in /home2/news5tsef/www.uvees.in/wp-includes/pluggable.php on line 1419
+[08-Jan-2023 14:06:51 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:51 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:06:51 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#17 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#18 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#19 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#20 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#21 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#22 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#23 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#24 /home2/news5tsef/www.uvees.in/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#25 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#26 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#27 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#28 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(3043): do_action('wp_head')
+#29 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/header.php(26): wp_head()
+#30 /home2/news5tsef/www.uvees.in/wp-includes/template.php(783): require_once('/home2/news5tse...')
+#31 /home2/news5tsef/www.uvees.in/wp-includes/template.php(718): load_template('/home2/news5tse...', true, Array)
+#32 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#33 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/404.php(15): get_header()
+#34 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(106): include('/home2/news5tse...')
+#35 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#36 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#37 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:06:52 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:53 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#17 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#18 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#19 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#20 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#21 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#22 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#23 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#24 /home2/news5tsef/www.uvees.in/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#25 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#26 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#27 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#28 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(3043): do_action('wp_head')
+#29 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/header.php(26): wp_head()
+#30 /home2/news5tsef/www.uvees.in/wp-includes/template.php(783): require_once('/home2/news5tse...')
+#31 /home2/news5tsef/www.uvees.in/wp-includes/template.php(718): load_template('/home2/news5tse...', true, Array)
+#32 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#33 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/404.php(15): get_header()
+#34 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(106): include('/home2/news5tse...')
+#35 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#36 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#37 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:06:54 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:06:54 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:06:55 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#17 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#18 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#19 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#20 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#21 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#22 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#23 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#24 /home2/news5tsef/www.uvees.in/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#25 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#26 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#27 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#28 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(3043): do_action('wp_head')
+#29 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/header.php(26): wp_head()
+#30 /home2/news5tsef/www.uvees.in/wp-includes/template.php(783): require_once('/home2/news5tse...')
+#31 /home2/news5tsef/www.uvees.in/wp-includes/template.php(718): load_template('/home2/news5tse...', true, Array)
+#32 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#33 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/404.php(15): get_header()
+#34 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(106): include('/home2/news5tse...')
+#35 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#36 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#37 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 63
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 73
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 89
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 102
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 111
+[08-Jan-2023 14:07:13 UTC] PHP Deprecated:  http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Transport/cURL.php on line 345
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 40
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 51
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 68
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 82
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 91
+[08-Jan-2023 14:07:15 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:07:15 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Control_Text" not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/document.php(1678): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#6 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/documents/kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#7 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Core\Kits\Documents\Kit->register_controls()
+#8 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#9 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#10 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#11 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#12 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(2161): Elementor\Controls_Stack->get_data('settings')
+#13 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#14 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#15 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#16 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#17 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#18 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#19 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/breakpoints/manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#20 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#21 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#22 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#23 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#24 /home2/news5tsef/www.uvees.in/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#25 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#26 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#27 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#28 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(3043): do_action('wp_head')
+#29 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/header.php(26): wp_head()
+#30 /home2/news5tsef/www.uvees.in/wp-includes/template.php(783): require_once('/home2/news5tse...')
+#31 /home2/news5tsef/www.uvees.in/wp-includes/template.php(718): load_template('/home2/news5tse...', true, Array)
+#32 /home2/news5tsef/www.uvees.in/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#33 /home2/news5tsef/www.uvees.in/wp-content/themes/astra/404.php(15): get_header()
+#34 /home2/news5tsef/www.uvees.in/wp-includes/template-loader.php(106): include('/home2/news5tse...')
+#35 /home2/news5tsef/www.uvees.in/wp-blog-header.php(19): require_once('/home2/news5tse...')
+#36 /home2/news5tsef/www.uvees.in/index.php(17): require('/home2/news5tse...')
+#37 {main}
+  thrown in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 63
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 73
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 89
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 102
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Cookie/Jar.php on line 111
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 40
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 51
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 68
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 82
+[08-Jan-2023 14:07:48 UTC] PHP Deprecated:  Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/news5tsef/www.uvees.in/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php on line 91
+[08-Jan-2023 14:07:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php:1102) in /home2/news5tsef/www.uvees.in/wp-includes/pluggable.php on line 1416
+[08-Jan-2023 14:07:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php:1102) in /home2/news5tsef/www.uvees.in/wp-includes/pluggable.php on line 1419
+[08-Jan-2023 14:07:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:07:49 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/news5tsef/www.uvees.in/wp-content/plugins/better-wp-security/core/core.php on line 1102
+[08-Jan-2023 14:08:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Text' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/ in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:08:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:09:06 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:09:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Text' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/ in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:09:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Text' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/ in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:10:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:10:34 UTC] PHP Deprecated:  Function Elementor\DB::is_built_with_elementor is <strong>deprecated</strong> since version 3.2.0! Use Plugin::$instance->documents->get( $post_id )->is_built_with_elementor() instead. in /home2/news5tsef/www.uvees.in/wp-includes/functions.php on line 5383
+[08-Jan-2023 14:10:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Text' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php:436
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(589): Elementor\Controls_Manager->register_controls()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(608): Elementor\Controls_Manager->get_controls()
+#2 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php(779): Elementor\Controls_Manager->get_control('section')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/base/controls-stack.php(1518): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#5 /home2/news5tsef/ in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/managers/controls.php on line 436
+[08-Jan-2023 14:10:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Data\V2\Base\Controller' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/editor/data/globals/controller.php:8
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/autoloader.php(294): require()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Core\\Editor\\Dat...')
+#2 [internal function]: Elementor\Autoloader::autoload('Elementor\\Core\\...')
+#3 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/editor/editor.php(876): spl_autoload_call('Elementor\\Core\\...')
+#4 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/plugin.php(719): Elementor\Core\Editor\Editor->__construct()
+#5 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/includes/plugin.php(641): Elementor\Plugin->init_components()
+#6 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 /home2/news5tsef/www. in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/editor/data/globals/controller.php on line 8
+[08-Jan-2023 14:10:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Data\V2\Base\Endpoint\Index\AllChildren' not found in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/editor/data/globals/controller.php:34
+Stack trace:
+#0 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/data/v2/base/controller.php(409): Elementor\Core\Editor\Data\Globals\Controller->register_index_endpoint()
+#1 /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/data/v2/base/controller.php(462): Elementor\Data\V2\Base\Controller->register()
+#2 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(308): Elementor\Data\V2\Base\Controller->Elementor\Data\V2\Base\{closure}(Object(WP_REST_Server))
+#3 /home2/news5tsef/www.uvees.in/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/news5tsef/www.uvees.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home2/news5tsef/www.uvees.in/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#6 /home2/news5tsef/www.uvees.in/wp-includ in /home2/news5tsef/www.uvees.in/wp-content/plugins/elementor/core/editor/data/globals/controller.php on line 34
+[08-Jan-2023 14:11:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17
+[08-Jan-2023 14:12:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/news5tsef/www.uvees.in/wp-content/plugins/razorpay-quick-payments/razorpay-quick-payments.php on line 17

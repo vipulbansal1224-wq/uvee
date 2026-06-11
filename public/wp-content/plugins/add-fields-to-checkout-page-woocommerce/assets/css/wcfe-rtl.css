@@ -1,0 +1,32 @@
+.wcfe_popup_wrapper .ui-tabs .ui-tabs-nav li {
+	float: right;
+}
+.ui-widget[aria-describedby="wcfe_edit_field_form_pp"] > .ui-widget-header > .ui-button, .ui-widget[aria-describedby="wcfe_new_field_form_pp"] > .ui-widget-header > .ui-button {
+	right: auto;
+	left: 15px;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: left;
+}
+
+.widefat td, .widefat th {
+	padding: 8px;
+}
+
+.widefat td > span, 
+.widefat th > span {
+	position: relative;
+}
+
+.widefat td > span.status-enabled::before,
+.widefat th > span.status-enabled::before {
+	left: -25px;
+}
+
+.ui-dialog .ui-dialog-title {
+	width: 100%;
+}
+
+.thpl_logic_link {
+	padding: 3px !important;
+}
