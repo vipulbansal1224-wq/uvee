@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Global Premium Typography */
+body, h1, h2, h3, h4, h5, h6, p, a, span, div, li {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Smooth Transitions for Everything */
+a, button, input, .product, img {
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Premium Buttons */
+button, 
+.button, 
+input[type="submit"], 
+.wp-block-button__link,
+.added_to_cart,
+.checkout-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(118, 75, 162, 0.3) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+
+button:hover, 
+.button:hover, 
+input[type="submit"]:hover, 
+.wp-block-button__link:hover,
+.added_to_cart:hover,
+.checkout-button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.5) !important;
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+}
+
+/* Product Cards Premium Look */
+ul.products li.product {
+    background: #ffffff !important;
+    border-radius: 16px !important;
+    padding: 15px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+    border: 1px solid rgba(0,0,0,0.02) !important;
+}
+
+ul.products li.product:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Product Images */
+ul.products li.product img {
+    border-radius: 12px !important;
+    margin-bottom: 15px !important;
+}
+
+ul.products li.product:hover img {
+    transform: scale(1.05) !important;
+}
+
+/* Header Glassmorphism */
+.site-header {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+/* Add to Cart specific tweaks */
+.add_to_cart_button {
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+}
+
+/* Titles and Prices */
+ul.products li.product .woocommerce-loop-product__title {
+    font-weight: 700 !important;
+    color: #2d3748 !important;
+}
+
+ul.products li.product .price {
+    color: #48bb78 !important;
+    font-weight: 700 !important;
+    font-size: 1.1em !important;
+}
