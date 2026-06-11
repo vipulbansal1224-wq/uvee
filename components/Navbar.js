@@ -11,7 +11,18 @@ export default function Navbar() {
         <div className={styles.navLinks}>
           <Link href="/" className={styles.link}>Home</Link>
           <Link href="/shop" className={styles.link}>Shop</Link>
-          <Link href="/about" className={styles.link}>About Us</Link>
+          <Link href="/about" className={styles.link}>About</Link>
+          
+          <div className={styles.dropdown}>
+            <span className={styles.link} style={{ cursor: 'pointer' }}>Policies ▼</span>
+            <div className={styles.dropdownContent}>
+              <Link href="/policies/privacy">Privacy Policy</Link>
+              <Link href="/policies/refund">Refund Policy</Link>
+              <Link href="/policies/shipping">Shipping & Delivery</Link>
+              <Link href="/policies/terms">Terms & Conditions</Link>
+            </div>
+          </div>
+
           <Link href="/contact" className={styles.link}>Contact</Link>
         </div>
         <div className={styles.actions}>

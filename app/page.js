@@ -84,7 +84,10 @@ export default function Home() {
               <a href="/about">About Us</a>
               <a href="/contact">Contact Us</a>
               <a href="/shop">Shop</a>
-              <a href="#">Privacy Policy</a>
+              <a href="/policies/privacy">Privacy Policy</a>
+              <a href="/policies/refund">Refund Policy</a>
+              <a href="/policies/shipping">Shipping & Delivery</a>
+              <a href="/policies/terms">Terms & Conditions</a>
             </div>
           </div>
           <p className={styles.copyright}>© 2026 UVEE. All rights reserved. A Complete Healthy Diet Store.</p>

@@ -20,6 +20,7 @@ export default function Contact() {
           </div>
           
           <div style={{ background: 'white', padding: '30px', borderRadius: '16px', boxShadow: 'var(--shadow-sm)' }}>
+            <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>Send us a message</h3>
             <form style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <input type="text" placeholder="Your Name" style={{ padding: '12px', border: '1px solid #e2e8f0', borderRadius: '8px' }} />
               <input type="email" placeholder="Your Email" style={{ padding: '12px', border: '1px solid #e2e8f0', borderRadius: '8px' }} />
@@ -27,6 +28,19 @@ export default function Contact() {
               <button type="button" style={{ padding: '12px', background: 'var(--primary)', color: 'white', border: 'none', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer' }}>Send Message</button>
             </form>
           </div>
+        </div>
+
+        {/* Google Map */}
+        <div style={{ marginTop: '60px', borderRadius: '16px', overflow: 'hidden', boxShadow: 'var(--shadow-md)', height: '400px' }}>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.4752538186175!2d75.7667498!3d30.9015949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a82f3c30a58ad%3A0x8e8b1509ba249f3e!2sMega%20Food%20Park%20Ladowal!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen="" 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </main>
