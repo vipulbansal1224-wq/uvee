@@ -9,19 +9,20 @@ const sliderImages = [
   '/wp-content/uploads/2022/07/WhatsApp-Image-2022-08-20-at-7.49.16-PM-1.jpeg'
 ];
 
-export default function ImageSlider() {
+export default function ImageSlider({ images }) {
+  const finalImages = images && images.length > 0 ? images : sliderImages;
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % finalImages.length);
     }, 4000);
     return () => clearInterval(timer);
   }, []);
 
   return (
     <div className={styles.sliderContainer}>
-      {sliderImages.map((image, index) => (
+      {finalImages.map((image, index) => (
         <img
           key={index}
           src={image}
@@ -30,7 +31,7 @@ export default function ImageSlider() {
         />
       ))}
       <div className={styles.dots}>
-        {sliderImages.map((_, index) => (
+        {finalImages.map((_, index) => (
           <span
             key={index}
             className={`${styles.dot} ${index === currentIndex ? styles.activeDot : ''}`}
