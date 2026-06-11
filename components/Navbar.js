@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          UVEE
+          <img src="/wp-content/uploads/2022/07/logo-1.jpg" alt="UVEE Logo" style={{ height: '40px', width: 'auto' }} />
         </Link>
         <div className={styles.navLinks}>
           <Link href="/" className={styles.link}>Home</Link>
