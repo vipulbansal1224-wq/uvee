@@ -1,14 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async rewrites() {
-    return {
-      beforeFiles: [
-        {
-          source: '/',
-          destination: '/index.html',
-        },
-      ],
-    }
-  },
+  // Config options here
 };
 export default nextConfig;
